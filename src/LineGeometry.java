@@ -43,6 +43,8 @@
             System.out.printf("The length of the line between points (%.2f, %.2f) and (%.2f, %.2f) is: %.2f%n", x3, y3, x4, y4, length1);
             LineEquality l=new LineEquality();
             l.checkEquality(length1,length2);
+            LineComparison c=new LineComparison();
+            c.compare(length1,length2);
             scanner.close();
         }
     }
